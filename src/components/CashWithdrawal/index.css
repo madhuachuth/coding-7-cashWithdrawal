@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card {
+  background-color: #150b3e;
+  border-radius: 18px;
+  min-width: 40vw;
+  min-height: 80vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-details-container {
+  align-self: flex-start;
+  display: flex;
+}
+
+.profile-photo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-size: 20px;
+  margin-left: 13px;
+  align-self: center;
+}
+
+.balance-details-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.balance-head {
+  color: #585076;
+  font-size: 24px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-right: 200px;
+}
+
+.balance {
+  margin-left: 50px;
+}
+
+.balance-amount {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.currency {
+  color: #585076;
+  font-size: 15px;
+}
+
+.heading-one {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.para-one {
+  color: #585076;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.unorder-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
